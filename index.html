@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+    </head>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js"></script>
+    <body>
+        <div id="Container">
+            <h3>CALCULATOR</h3>
+            <input type="text" id="inputfield" disabled><br><br>
+        <div id="row1">
+            <button  type="button" id="clear" onclick="calc('AC')">AC</button>
+            <button type="button" id="delete" onclick="calc('C')">C</button>
+            <button type="button" id="modulos" onclick="calc('+')">+</button>
+            <button type="button" id="divide" onclick="calc('-')">-</button><br><br>
+        </div>
+        <div id="row2">
+            <button type="button" id="seven" value="7" onclick="calc('7')">7</button> 
+            <button type="button" id="eight" value="7" onclick="calc('8')">8</button> 
+            <button type="button" id="nine" value="7" onclick="calc('9')">9</button> 
+            <button type="button" id="add" value="7" onclick="calc('*')">*</button> 
+            <br></br>
+        </div>
+        <div id="row3">
+            <button type="button" id="four" onclick="calc('4')">4</button>
+            <button type="button" id="five" onclick="calc('5')">5</button>
+            <button type="button" id="six" onclick="calc('6')">6</button>
+            <button type="button" id="sub" onclick="calc('/')">/</button><br><br>
+        </div>
+        <div id="row4">
+            <button type="button" id="one" onclick="calc('1')">1</button>
+            <button type="button" id="two" onclick="calc('2')">2</button>
+            <button type="button" id="three" onclick="calc('3')">3</button>
+            <button type="button" id="mul" onclick="calc('%')">%</button><br><br>
+        </div>
+        <div id="row5">
+            <button type="button" id="zeros" onclick="calc('00')">00</button>
+            <button type="button" id="zero" onclick="calc('0')">0</button>
+            <button type="button" id="dot" onclick="calc('.')">.</button>
+            <button type="submit" id="equals" onclick="calc('=')">=</button>
+        </div>
+    </div>
+        <script src="script.js"></script>
+    </body>
+</html>
